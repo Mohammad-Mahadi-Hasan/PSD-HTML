@@ -1,0 +1,463 @@
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+}
+
+
+/* HEADER START HERE */
+
+#navbody1{
+    background-image: url(img/back1.png);
+    position: relative;
+    content: "";
+    height: 850px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;  
+  
+}
+.navbody2{
+background-color: black;
+position: absolute;
+background-size: 100%;
+width: 40%;
+height: 100%;
+background-repeat: no-repeat;
+z-index: 2;
+opacity: 0.8;
+
+}
+
+.navbody3{
+    background-image: url(img/back2.png);
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+    width: 87%;
+    height: 103%;
+    background-repeat: no-repeat;
+    content: "";
+    margin: 0 auto;
+    right: 0;
+
+}
+
+.nav1{
+    position: absolute;
+    z-index: 4;
+    display:inline-block;
+    width: 100%;
+    top: 20px;
+   
+}
+
+.nav1 ul li{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 20px;    
+    
+}
+a b{
+    color: #fcfefc;
+}
+ul{
+    float: right;
+    margin-right: 20px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav1 h1{
+    color: #fcfefc;
+    margin-left: 195px;
+    margin-top: 130px;
+    font-size: 50px;
+}
+
+.nav1 button{
+    background-color: #9ccd3c;
+    padding: 20px 50px;
+    margin-left: 195px;
+    color: #fcfefc;
+    cursor: pointer;
+
+}
+
+.navbody3 a{
+    margin-left: 405px;
+
+}
+.navbody3 a img{
+    margin-top: 330px;
+
+}
+
+.navbody3 span{
+    margin-left: 673px;
+
+}
+
+/* HEADER ENDS HERE */
+
+
+
+
+/* BODY PART START HERE */
+
+
+.body1{
+    margin-top: 100px;
+}
+
+.card1latter{
+    width: 50%;
+    display: inline-block;
+    box-shadow: black 0px 2px 10px;
+    margin-left: 70px;
+}
+    
+
+.card1latter h1{
+    font-size: 50px;
+    padding: 10px;
+    padding-left: 35px;
+
+}
+.card1latter p{
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+.card1latter ul{
+    float: left;
+}
+
+.card1latter ul li{
+    display: inline-flex;
+    margin-right: 10px;
+
+
+}
+
+.card1img{
+    width: 45%;
+    float: right;
+   padding-left: 30px;
+   position: relative;
+}
+.card1img img{
+    background-repeat: no-repeat;
+    content: "";
+    background-size: 100%;
+    width: 78%;
+    box-shadow: black 0px 2px 10px;
+
+    
+}
+
+.buttonimg{
+    position: absolute;
+    bottom: 150px;
+}
+
+.buttonimg button{
+    padding: 30px;
+    background-color: #9ccd3c;
+    color: #fcfefc;
+    border: none;
+
+}
+
+
+.body2{
+    margin-top: 50px;
+}
+
+.body3{
+    margin-top: 50px;
+}
+
+
+
+.body4{
+    margin-top: 100px;
+    background-image: url(img/card4img.png);
+    background-repeat: no-repeat;
+    content: "";
+    background-size: 100%;
+    width: 100%;
+    height: 535px;
+}
+
+.childbody1{
+text-align: center;
+padding-top: 100px;
+}
+.childbody1 h1{
+    color: #fcfefc;
+}
+
+.childbody1 p{
+    color: #fcfefc;
+}
+
+.childbody1 h1{
+    padding-bottom: 50px;
+}
+.childbody1 p{
+    font-size: 18px;
+    display: block;
+}
+
+.childbody1 button{
+    background-color: #9ccd3c;
+   padding: 15px 150px;
+   margin-top: 50px;
+   color: #fcfefc;
+}
+
+/* BODY PART ENDS HERE */
+
+
+
+
+
+/* CONTACTUS START HERE */
+
+.contactus{
+    margin-top: 100px;
+}
+
+.contact1 {
+    display: inline-block;
+}
+
+.contact1 input{
+    padding: 20px;
+    width: 400px;
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: #6d6f6a 0px 0px 2px;
+    margin-left: 100px;
+}
+
+.contact1 h1{
+    margin-left: 100px;
+    font-size: 50px;
+    
+}
+
+.contactus .contact1 .conmess input{
+    height: 150px;
+}
+
+.contact1 button{
+    background-color: #9ccd3c;
+    padding: 20px 50px;
+    color: #fcfefc;
+    border: none;
+    margin-left: 100px;
+}
+
+
+.contact2{
+    float: right;
+    width: 50%;
+    box-shadow: black 0px 0px 5px;
+    margin-right: 100px;
+    position: relative;
+
+}
+
+.timg1{
+
+    position: absolute;
+    background-repeat: no-repeat;
+    content: "";
+    z-index: 2;
+    margin-left: 50px;
+
+
+}
+
+.timg2{
+    position: absolute;
+    background-color: #9ccd3c;
+    width: 180px;
+    height: 100px;
+    z-index: 1;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.contact2 h1{
+    text-align: center;
+font-size: 50px;}
+
+.contact2 .ttext{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.contact2 h2{
+    font-size: 30px;
+}
+
+.contact2 .ttext span{
+    color: #9ccd3c;
+    
+}
+
+.contact2 p{
+    text-align: justify;
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact2 .timg3{
+    content: "";
+      position: absolute; 
+ background-size: cover; 
+   background-repeat: no-repeat;
+   z-index: 3;
+   right: 0;
+   margin-top: 200px;
+   width: 23px;
+}
+
+.contact2 .timg3 img{
+    width: 50px;
+}
+
+
+
+/* CONTACTUS ENDS HERE */
+
+
+
+
+
+
+
+/* FOOTER START HERE */
+
+footer{
+    margin-top: 100px;
+    background-color: #191c25;
+    height: 600px;
+    position: relative;
+  
+}
+
+footer #h1{
+    font-size: 50px;
+    color: #fcfefc;
+    padding-right: 100px;
+}
+
+footer #menu{
+    font-size: 20px;
+    color: #fcfefc;
+    margin-left: 40px;
+
+
+}
+footer .menu1{
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-top: 50px;
+
+
+}
+footer .sfooter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+
+}
+footer .sfooter a{
+
+}
+
+footer .devider{
+    width: 1320px;
+    height: 1px;
+    display: inline-block;
+    background-color: #fcfefc;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+footer .menu2{
+    position: relative;
+    content: "";
+}
+footer .menu2 h1{
+    color: #fcfefc;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+footer .menu2 input{
+    width: 704px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 400px;
+}
+
+footer .arrow{
+    width: 80px;
+    height: 59px;
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    background-color: #9ccd3c;
+    position: absolute;
+    margin-right: 350px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+
+footer .menu3 img, p{
+    display: inline-block;
+    font-size: 28px;
+    margin-right: 5px;
+    color: #fcfefc;
+    
+}
+footer .menu3{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer .menu3 #imgm{
+    margin-left: 50px;
+}
+
+footer .footerp p{
+    font-size: 24px;
+    color: #9d9da0;
+}
+footer .footerp{
+    text-align: center;
+
+}
+
+/* FOOTER ENDS HERE */
